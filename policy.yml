@@ -1,0 +1,12 @@
+policy:
+  approval:
+    - subject is conventional commit
+
+approval_rules:
+  - name: subject is conventional commit
+    requires:
+      conditions:
+        title:
+          matches:
+            - '^(feat|fix|docs|chore|refactor|build): .+'
+            - '^(feat|fix|docs|chore|refactor|build)\(\w+( \w+)*\): .+'
