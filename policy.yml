@@ -9,4 +9,4 @@ approval_rules:
         title:
           matches:
             - '^(feat|fix|docs|chore|refactor|build): [a-z].+'
-            - '^(feat|fix|docs|chore|refactor|build)\(\w+( \w+)*\): [a-z].+'
+            - '^(feat|fix|docs|chore|refactor|build)\(\w+(,\w+)*\): [a-z].+'
