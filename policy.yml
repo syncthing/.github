@@ -8,5 +8,5 @@ approval_rules:
       conditions:
         title:
           matches:
-            - '^(feat|fix|docs|chore|refactor|build): [a-z].+'
-            - '^(feat|fix|docs|chore|refactor|build)\(\w+(,\w+)*\): [a-z].+'
+            - '^(feat|fix|docs|chore|refactor|build|deps): [a-z].+'
+            - '^(feat|fix|docs|chore|refactor|build|deps)\(\w+(,\w+)*\): [a-z].+'
